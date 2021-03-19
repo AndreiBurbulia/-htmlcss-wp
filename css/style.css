@@ -1,0 +1,95 @@
+/* Azzeratore margini e padding */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: white;
+}
+
+/* Utility CSS*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#page_container{
+    background-color: lightcoral;
+    width: 80%;
+    /* height: 1500px; */
+    margin: auto;
+}
+
+/* /Utility CSS*/
+
+
+/* Header CSS */
+
+.page_logo{
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}
+
+.navigation_voice{
+    background-color: grey;
+    height: 50px;
+    width: 100%;
+}
+/* /Header CSS */
+
+/* Main CSS */
+
+.big_photo{
+    background-color: cyan;
+    height: 500px;
+    width: 100%;
+}
+
+.title_content{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+
+.container_content{
+    background-color: black;
+    width: 100%;
+}
+.sidebar_left, .sidebar_right{
+    background-color: springgreen;
+    width: 20%;
+    float: left;
+}
+
+.content{
+    background-color: darkgreen;
+    width: 60%;
+    float: left;
+}
+
+.imm_left, .imm_right, .imm_central{
+    background-color: orange;
+    height: 200px;
+}
+
+
+.description_imm{
+    background-color: plum;
+}
+
+/* /Main CSS */
+
+/* Footer CSS */
+
+#site_footer{
+    background-color: purple;
+    height: 100px;
+}
+/* /Footer CSS */
+
+
+
+
+
