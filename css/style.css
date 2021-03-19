@@ -93,22 +93,37 @@ h1{
 }
 
 .img_left{
-    background-color: rosybrown;
+    height: 200px;
+    background-color: grey;
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    background-size: 105%;
 }
 
 
 .img_central{
     background-color: seagreen;
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: 95%;
+
     
 }
 .img_right{
     background-color: steelblue;
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+
 }
+
 
 .img_left, .img_right, .img_central{
     /* background-color: orange; */
-    height: 200px;
+    /* height: 200px; */
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 
