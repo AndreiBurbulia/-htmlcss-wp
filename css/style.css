@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-/* Utility CSS*/
+/* --------------- Utility CSS ---------------*/
+
 .clearfix::after{
     content: "";
     display: table;
@@ -13,20 +14,20 @@
 }
 
 #page_container{
-    /* background-color: lightcoral; */
     width: 80%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
-/* /Utility CSS*/
 .testo_grigio{
     color: grey;
 }
 
-/* Header CSS */
+/*--------------- /Utility CSS ---------------*/
+
+/* ---------------   Header CSS ---------------*/
+
 #site_header{
-    height: 100px;
     margin-bottom: 1rem;
 }
 
@@ -55,9 +56,11 @@ div.navigation_voice > ul > li{
 }
 
 
-/* /Header CSS */
+/* --------------- /Header CSS ---------------*/
 
-/* Main CSS */
+/* --------------- Main CSS --------------- */
+ /* Foto principale con titolo */
+
 .container_foto{
     margin-top: 2rem;
     width: 100%;
@@ -74,7 +77,6 @@ div.navigation_voice > ul > li{
 
 .foto_grigia{
     position: absolute;
-    /* margin: 2rem 0; */
     border-radius: 10px;
     top: 0;
     width: 100%;
@@ -90,6 +92,10 @@ div.navigation_voice > ul > li{
     color: rgba(255, 255, 255, 0.7);
 }
 
+ /* /Foto principale con titolo */
+
+ /* Sezione con il contenuto della pagina */
+
 .title_content{
     width: 100%;
     padding: 0 0 2rem;
@@ -97,13 +103,15 @@ div.navigation_voice > ul > li{
 }
 
 h1{
-    font-weight: 900;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
 }
 
 .container_content{
     width: 100%;
 }
+
 .sidebar_left, .sidebar_right{
     width: 20%;
     float: left;
@@ -124,6 +132,23 @@ h1{
     background-size: 105%;
 }
 
+.img_central{
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: 95%;
+}
+
+.img_right{
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+}
+
+.img_left, .img_right, .img_central, .sfondo_grigio{
+    border-radius: 10px;
+}
+
 .sfondo_grigio{
     position: absolute;
     top: 0;
@@ -131,30 +156,6 @@ h1{
     height: 200px;
     background-color: rgba(128, 128, 128, 0.3);
 }
-
-.img_central{
-    height: 200px;
-    background-image: url(../img/banner-2.jpg);
-    background-position: center;
-    background-size: 95%;
-
-    
-}
-.img_right{
-    height: 200px;
-    background-image: url(../img/img-3.jpg);
-    background-position: center;
-
-}
-
-
-.img_left, .img_right, .img_central, .sfondo_grigio{
-    /* background-color: orange; */
-    /* height: 200px; */
-    border-radius: 10px;
-    /* border: 1px solid black; */
-}
-
 
 .description_img{
     margin-top: 1rem;
@@ -164,16 +165,19 @@ div.description_img > h4{
     margin-bottom: 0.5rem;
 }
 
-/* /Main CSS */
+ /* Sezione con il contenuto della pagina */
 
-/* Footer CSS */
+
+/* --------------- /Main CSS --------------- */
+
+/* --------------- Footer CSS ---------------*/
 
 #site_footer{
     height: 100px;
-    padding-top: 2rem;
+    padding-top: 3rem;
     text-align: center;
 }
-/* /Footer CSS */
+/*--------------- /Footer CSS ---------------*/
 
 
 
