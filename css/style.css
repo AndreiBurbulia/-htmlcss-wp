@@ -114,7 +114,6 @@ h1{
 
 .description_img{
     margin-top: 1rem;
-    background-color: plum;
 }
 
 div.description_img > h4{
@@ -126,8 +125,9 @@ div.description_img > h4{
 /* Footer CSS */
 
 #site_footer{
-    background-color: purple;
     height: 100px;
+    padding-top: 2rem;
+    text-align: center;
 }
 /* /Footer CSS */
 
