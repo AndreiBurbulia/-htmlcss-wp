@@ -3,8 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 40px;
-    color: white;
 }
 
 /* Utility CSS*/
@@ -15,9 +13,8 @@
 }
 
 #page_container{
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 80%;
-    /* height: 1500px; */
     margin: auto;
 }
 
@@ -27,15 +24,23 @@
 /* Header CSS */
 
 .page_logo{
-    background-color: black;
-    height: 100px;
-    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
-.navigation_voice{
-    background-color: grey;
-    height: 50px;
-    width: 100%;
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+div.navigation_voice > ul > li{
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase; 
+    margin-right: 10px; 
 }
 /* /Header CSS */
 
